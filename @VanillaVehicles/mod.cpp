@@ -1,10 +1,10 @@
 name="VanillaVehicles";
 tooltip="VanillaVehicles";
 overview="Modifies vanilla vehicles for better performance.";
-picture="VanillaVehicles/data/picture.paa";
-logoSmall="VanillaVehicles/data/logoSmall.paa";
-logo="VanillaVehicles/data/logo.paa";
-logoOver="VanillaVehicles/data/logo.paa";
+picture="VanillaVehicles\data\picture.paa";
+logoSmall="VanillaVehicles\data\logoSmall.paa";
+logo="VanillaVehicles\data\logo.paa";
+logoOver="VanillaVehicles\data\logo.paa";
 action="https://steamcommunity.com/sharedfiles/filedetails/?id=3540323850";
 author="moldypenguins";
 version="1.2";

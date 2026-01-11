@@ -18,10 +18,10 @@ class CfgMods
     hidePicture=0;
     extra=0;
     name="VanillaVehicles";
-    picture="VanillaVehicles/data/picture.paa";
-    logoSmall="VanillaVehicles/data/logoSmall.paa";
-    logo="VanillaVehicles/data/logo.paa";
-    logoOver="VanillaVehicles/data/logo.paa";
+    picture="VanillaVehicles\data\picture.paa";
+    logoSmall="VanillaVehicles\data\logoSmall.paa";
+    logo="VanillaVehicles\data\logo.paa";
+    logoOver="VanillaVehicles\data\logo.paa";
     action="https://steamcommunity.com/sharedfiles/filedetails/?id=3540323850";
     credits="moldypenguins";
     author="moldypenguins";
@@ -34,12 +34,12 @@ class CfgMods
       class engineScriptModule
       {
         value="";
-        files[]={ "VanillaVehicles/scripts/1_core" };
+        files[]={ "VanillaVehicles\scripts\1_core" };
       };
       class worldScriptModule
       {
         value="";
-        files[]={"VanillaVehicles/scripts/4_world"};
+        files[]={"VanillaVehicles\scripts\4_world"};
       };
     }
   };
