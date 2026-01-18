@@ -38,7 +38,7 @@
 - Compression: x1.75
 - Damping: x2.25
 
-[h3]M1025 - 6 Speed Automatic Transmission - All Wheel Drive[/h3]
+[h3]M1025 - 5 Speed Automatic Transmission - All Wheel Drive[/h3]
 [u][b]Parts[/b][/u]
 - Truck Battery [strike]Car Battery[/strike]
 - Glow Plug [strike]Spark Plug[/strike]
@@ -62,7 +62,7 @@
 [u][b]Cargo[/b][/u]
 - Size: 10x60 [strike]10x30[/strike]
 
-[h3]M3S - 8 Speed Manual Transmission - 6x4 Drive[/h3]
+[h3]M3S - 6 Speed Manual Transmission - 6x4 Drive[/h3]
 [i]* Note: Since there is no proxy for the glow plug, it is put in the center of the model. It can be accessed from above the fuel tank.[/i]
 [u][b]Parts[/b][/u]
 - Glow Plug [strike]Nothing[/strike]

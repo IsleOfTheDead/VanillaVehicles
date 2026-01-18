@@ -7,4 +7,4 @@ logo="VanillaVehicles\data\logo.paa";
 logoOver="VanillaVehicles\data\logo.paa";
 action="https://steamcommunity.com/sharedfiles/filedetails/?id=3540323850";
 author="moldypenguins";
-version="1.2";
+version="1.4";

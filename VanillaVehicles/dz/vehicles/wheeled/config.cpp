@@ -5,7 +5,7 @@ class CfgPatches
     units[]={};
     weapons[]={};
     requiredVersion=0.1;
-    requiredAddons[]={"DZ_Vehicles_Wheeled"};
+    requiredAddons[]={ "DZ_Data", "DZ_Vehicles_Wheeled" };
   };
 };
 class CfgVehicles
@@ -1145,7 +1145,7 @@ class CfgVehicles
         //reverse=2.0799999;
         reverse=3.08;
         //ratios[]={2.48, 1.48, 1, 0.75};
-        ratios[]={4.07, 2.84, 1.98, 1.58, 1.16, 0.87};
+        ratios[]={4.07, 2.84, 1.98, 1.18, 0.87};
       };
       class CentralDifferential
       {
@@ -1440,7 +1440,7 @@ class CfgVehicles
         //reverse=6.2800002;
         reverse=5.725;
         //ratios[]={6.1900001, 3.1300001, 1.75, 1};
-        ratios[]={7.018, 4.002, 2.715, 2.069, 1.653, 1.337, 1.056};
+        ratios[]={7.018, 4.002, 2.715, 2.069, 1.453, 1.056};
       };
       class CentralDifferential
       {
