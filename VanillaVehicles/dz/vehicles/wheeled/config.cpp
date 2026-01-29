@@ -8,6 +8,7 @@ class CfgPatches
     requiredAddons[]={ "DZ_Data", "DZ_Vehicles_Wheeled" };
   };
 };
+
 class CfgVehicles
 {
   class Inventory_Base;
@@ -76,7 +77,6 @@ class CfgVehicles
     fuelCapacity=50;
     fuelConsumption=10;
     batterySlot="CarBattery";
-    attachments[]={"CarBattery", "Reflector_1_1", "Reflector_2_1"};
     class NoiseCarHorn
     {
       strength=30;
@@ -1055,24 +1055,6 @@ class CfgVehicles
   };
   class Offroad_02: CarScript
   {
-    attachments[]=
-    {
-      "TruckBattery",
-      "Reflector_1_1",
-      "Reflector_2_1",
-      "GlowPlug",
-      "Offroad_02_Hood",
-      "Offroad_02_Trunk",
-      "Offroad_02_Door_1_1",
-      "Offroad_02_Door_2_1",
-      "Offroad_02_Door_1_2",
-      "Offroad_02_Door_2_2",
-      "Offroad_02_Wheel_1_1",
-      "Offroad_02_Wheel_1_2",
-      "Offroad_02_Wheel_2_1",
-      "Offroad_02_Wheel_2_2",
-      "Offroad_02_Wheel_Spare_1"
-    };
     //fuelCapacity=115;
     fuelCapacity=155;
     fuelConsumption=30;
@@ -1298,16 +1280,6 @@ class CfgVehicles
         };
       };
     };
-    class GUIInventoryAttachmentsProps
-    {
-      class Engine
-      {
-        name="$STR_attachment_Engine0";
-        description="";
-        icon="set:dayz_inventory image:cat_vehicle_engine";
-        attachmentSlots[]={"TruckBattery", "GlowPlug"};
-      };
-    };
   };
 
   // ###################################################################################################################
@@ -1350,24 +1322,6 @@ class CfgVehicles
   };
   class Truck_01_Base: CarScript
   {
-    attachments[]=
-    {
-      "TruckBattery",
-      "Reflector_1_1",
-      "Reflector_2_1",
-      "GlowPlug",
-      "Truck_01_Door_1_1",
-      "Truck_01_Door_2_1",
-      "Truck_01_Hood",
-      "Truck_01_Wheel_1_1",
-      "Truck_01_Wheel_2_1",
-      "Truck_01_Wheel_Spare_1",
-      "Truck_01_Wheel_Spare_2",
-      "Truck_01_Wheel_1_2",
-      "Truck_01_Wheel_2_2",
-      "Truck_01_Wheel_1_3",
-      "Truck_01_Wheel_2_3"
-    };
     //fuelCapacity=120;
     fuelCapacity=165;
     //fuelConsumption=30;
@@ -1614,64 +1568,15 @@ class CfgVehicles
         };
       };
     };
-    class GUIInventoryAttachmentsProps
-    {
-      class Engine
-      {
-        name="$STR_attachment_Engine0";
-        description="";
-        icon="set:dayz_inventory image:cat_vehicle_engine";
-        attachmentSlots[]={"TruckBattery", "GlowPlug"};
-      };
-    };
   };
   class Truck_01_Covered: Truck_01_Base
   {
-    attachments[]=
-    {
-      "TruckBattery",
-      "Reflector_1_1",
-      "Reflector_2_1",
-      "GlowPlug",
-      "Truck_01_Door_1_1",
-      "Truck_01_Door_2_1",
-      "Truck_01_Hood",
-      "Truck_01_Wheel_1_1",
-      "Truck_01_Wheel_1_2",
-      "Truck_01_Wheel_1_3",
-      "Truck_01_Wheel_2_1",
-      "Truck_01_Wheel_2_2",
-      "Truck_01_Wheel_2_3",
-      "Truck_01_Wheel_Spare_1",
-      "Truck_01_Wheel_Spare_2",
-      "Truck_01_WoodenLogs",
-      "Truck_01_WoodenPlanks",
-      "Truck_01_MetalSheets",
-      "Truck_01_Barrel1",
-      "Truck_01_Barrel2",
-      "Truck_01_Barrel3",
-      "Truck_01_Barrel4",
-      "Truck_01_WoodenCrate1",
-      "Truck_01_WoodenCrate2",
-      "Truck_01_WoodenCrate3",
-      "Truck_01_WoodenCrate4"
-    };
     class Cargo
     {
       //itemsCargoSize[]={10, 60};
       itemsCargoSize[]={10, 100};
       allowOwnedCargoManipulation=1;
       openable=0;
-    };
-    class GUIInventoryAttachmentsProps
-    {
-      class Engine
-      {
-        name="$STR_attachment_Engine0";
-        description="";
-        icon="set:dayz_inventory image:cat_vehicle_engine";
-        attachmentSlots[]={"TruckBattery", "GlowPlug"};
-      };
     };
   };
   class Truck_01_Chassis;
@@ -1685,5 +1590,4 @@ class CfgVehicles
 			openable=0;
 		};
   }
-
 };
